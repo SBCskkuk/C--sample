@@ -19,8 +19,25 @@ public class ArithmaticOperators : MonoBehaviour
         double d = c / 6.3;
         Debug.Log($"d : {d}");
 
-        Debug.Log($"22 / 7 = {22 /7} ({22 % 7})");
+        Debug.Log($"22 / 7 = {22 / 7} ({22 % 7})");
 
     }
+    void Next() 
+    {
+    int a = 10;
+    Debug.Log(a++);
+    Debug.Log(++a);
+        
+    Debug.Log(a--);
+    Debug.Log(--a);
 
+        {
+            string result = "123" + "456";
+            Debug.Log(result);
+
+            result = "Hello" + " " + "Wolrd";
+            Debug.Log(result);  
+        }
+    }
+    
 }
